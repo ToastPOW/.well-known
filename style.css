@@ -11,6 +11,7 @@
 }
 body {
     font-family: Arial;
+    font-size: 20px;
 }
 .head span {
     text-align: center;
@@ -45,7 +46,10 @@ img {
     border: black inset 3px;
 }
 .nav {
-    margin: 30%;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     background: #FFEF91;
     text-transform: uppercase;
 }
