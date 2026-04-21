@@ -1,5 +1,5 @@
 .head {
-    background-image: url("https://i.ibb.co/0Vtmdhqg/75tx0vs38gtg1.png");
+    background-image: /*url("https://i.ibb.co/sp4pBv3N/HELr-L5-Ca-IAA1-Wn-S.jpg");*/ url("https://i.ibb.co/0Vtmdhqg/75tx0vs38gtg1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -8,6 +8,9 @@
     font-size: 30px; 
     height: 450px; 
     padding-top: 20px;
+}
+body {
+    font-family: Arial;
 }
 .head span {
     text-align: center;
