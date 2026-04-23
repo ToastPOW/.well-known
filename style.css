@@ -39,12 +39,25 @@
     background: #adadad;
 }
 /* main goes here */
+a {
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid red;
+}
+a:hover {
+    background: #FFA02E;
+    text-decoration: underline;
+}
 body {
     border-radius: 25px 50px 10px;
     border-collapse: separate;
     background: #FEFDDF;
     font-family: Arial;
     font-size: 20px;
+}
+div {
+    padding: 20px;
 }
 footer {
     color: white;
@@ -54,22 +67,17 @@ footer {
 img .no-border {
     border: black inset 3px;
 }
-
-a {
-    text-decoration: none;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid red;
-}
-a:hover {
-    background: #FFA02E;
-    text-decoration: underline;
-}
 p {
     margin-left: 20%;
     margin-right: 20%;
 }
-div {
-    padding: 20px;
+.next-to {
+    position: sticky;
+    right: 25%;
+    float: right;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
 }
 /* Id goes here */
 #highlight {
