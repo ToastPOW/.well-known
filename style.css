@@ -63,7 +63,6 @@
     background: white;
     display: flex;
     flex-wrap: wrap;
-    font-weight: normal;
 }
 .no-bg {
     background: none;
@@ -125,6 +124,7 @@ img {
     border-radius: 10px;
 }
 p {
+    overflow: hidden;
     margin-left: 10%;
     margin-right: 10%;
 }
