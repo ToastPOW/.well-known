@@ -24,6 +24,10 @@
     right: 30%;
     left: 30%;
 }
+.icon {
+    height: 20px;
+    display: inline-block;
+}
 .nav {
     display: block;
     margin-top: 10px;
@@ -68,6 +72,7 @@ body {
 }
 div {
     padding: 20px;
+    border-radius: 10px;
 }
 footer {
     color: white;
