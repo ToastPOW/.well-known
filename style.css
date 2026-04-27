@@ -22,6 +22,15 @@
     border-radius: 10px 0 0 10px;               
     background: white;
 }
+.but {
+    color: black;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 10px solid white;
+    border-right: none;            
+    background: white;
+}
 .but-b {
     color: black;
     border: none;
@@ -31,6 +40,7 @@
     border-right: none;
     border-radius: 0 10px 10px 0;               
     background: white;
+    padding-right: 5px;
 }
 .col {
     column-count: 2;
