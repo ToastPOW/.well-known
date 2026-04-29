@@ -75,7 +75,16 @@
     </div>
     <hr>
     <h1>Hall of Phrases</h1>
-    <p>Working on the script so you guys can submit form to  google sheets:)</p>
+    <p>You can add your phrase through this form below</p>
+    <form style="text-align: center;" action="https://api.web3forms.com/submit" method="post">
+        <input type="text" name="name" size="15" placeholder="Name" required> <br>       
+        <input type="text" name="content" size="15" placeholder="Your phrase" required> <br>
+        <input type="hidden" name="access_key" value="70cf6a24-30cb-465c-9a8d-6f484180dc16">
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+    <hr>
+    <h3>Ow, nothing here yet😢</h3>
     <hr>
     <img style="width: 90%; display: block; margin: auto" src="resource/other/quote.png" alt="quote">
     <p>this is the end for now, here is a simple math problem for you to solve</p>
@@ -91,13 +100,13 @@
     <div class="footer-highlight"><p>• Nguyễn Trãi Senior Secondary School<br>• Year of Project creation: 2026 </p></div>
             <br>
      <p style="margin: 0;"> Feel free to check the source code: <a style="background: black; color: white;" href="https://github.com/ToastPOW/toastpow.github.io" target="_blank">GITHUB</a> <br> or </p>
-    <form action="mailto:normaltoast777@gmail.com" method="post" enctype="text/plain">
-    <p>Tell me your thoughts:)</p> Name:
-<input type="text" name="name" size="10">
-<br><br> Your suggestions:<br>
-        <input type="text-area" name="ideas"    size="15">
+    <form action="https://api.web3forms.com/submit" method="post">
+        <p>Tell me your thoughts:)</p>
+        <input type="text" name="name" placeholder="Name" size="5" required><br>
+        <input type="text" name="suggestion" placeholder="Your suggestion" size="15" required>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
+        <input type="hidden" name="access_key" value="a573774c-ce41-48d2-9266-50889a15dc00">
     </form>
 </footer>
 </html>
